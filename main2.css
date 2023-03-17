@@ -1,0 +1,206 @@
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p , 
+a {
+    background-color: gainsboro;
+    font-family: cursive;
+}
+
+img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.card{
+    width: 30%;
+    background-color: gray;
+    border-style: none;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+}
+
+#my-bio{
+    margin-top: 70px;
+    margin: 10px;
+    top: 0;
+    left: 0;
+    height: 40%;
+    background-color: chartreuse;
+}
+
+#my-bio:hover{
+    background-color: coral;
+}
+
+#my-photo{
+    margin-top: 70px;
+    margin: 10px;
+    top: 0;
+    right: 0;
+    content: "";
+    clear: both;
+    display: table;
+    overflow: hidden;
+    background-color: aqua
+}
+
+#my-photo{
+    background-color: blanchedalmond;
+}
+
+#my-education{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40%;
+    background-color: rgb(159, 87, 226);
+}
+
+#my-education:hover{
+    background-color: rgb(226, 53, 87);
+}
+
+#my-hobbies{
+    margin-top: 70px;
+    margin: 10px;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    background-color: rgb(72, 172, 206);
+}
+
+#my-hobbies:hover{
+    background-color: rgb(214, 142, 54);
+}
+
+#my-contact{
+    margin-top: 70px;
+    margin: 10px;
+    bottom: 0;
+    right: 0;
+    height: 30%;
+    background-color: rgb(211, 76, 144);
+}
+
+#my-contact:hover{
+    background-color: rgb(180, 224, 224);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #aaa;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.education-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.institution {
+    font-weight: bold;
+}
+
+.details {
+    margin-left: 20px;
+    font-style: italic;
+}
